@@ -28,7 +28,7 @@ DEBUG = True
 import os
 
 # Environment variables
-SECRET_KEY = s.getenv('t!bvqi0e!+@kd+y3(ga!1e54or53(&_b#u*i(y79fkl7x_=vr-',  'fallback_dev_secret')
+SECRET_KEY = os.getenv('t!bvqi0e!+@kd+y3(ga!1e54or53(&_b#u*i(y79fkl7x_=vr-',  'fallback_dev_secret')
 DEBUG = False
 
 ALLOWED_HOSTS = [
